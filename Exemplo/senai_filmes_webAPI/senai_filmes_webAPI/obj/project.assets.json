@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\guilherme_2\\.nuget\\packages\\": {}
+    "C:\\Users\\fic\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\guilherme_2\\Documents\\trabalhos do leo\\Senai\\Sprint-2-BE\\Exemplo\\senai_filmes_webAPI\\senai_filmes_webAPI\\senai_filmes_webAPI.csproj",
+      "projectUniqueName": "C:\\Users\\fic\\Desktop\\Sprint-2-Back-End\\Exemplo\\senai_filmes_webAPI\\senai_filmes_webAPI\\senai_filmes_webAPI.csproj",
       "projectName": "senai_filmes_webAPI",
-      "projectPath": "C:\\Users\\guilherme_2\\Documents\\trabalhos do leo\\Senai\\Sprint-2-BE\\Exemplo\\senai_filmes_webAPI\\senai_filmes_webAPI\\senai_filmes_webAPI.csproj",
-      "packagesPath": "C:\\Users\\guilherme_2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\guilherme_2\\Documents\\trabalhos do leo\\Senai\\Sprint-2-BE\\Exemplo\\senai_filmes_webAPI\\senai_filmes_webAPI\\obj\\",
+      "projectPath": "C:\\Users\\fic\\Desktop\\Sprint-2-Back-End\\Exemplo\\senai_filmes_webAPI\\senai_filmes_webAPI\\senai_filmes_webAPI.csproj",
+      "packagesPath": "C:\\Users\\fic\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fic\\Desktop\\Sprint-2-Back-End\\Exemplo\\senai_filmes_webAPI\\senai_filmes_webAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\guilherme_2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\fic\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
