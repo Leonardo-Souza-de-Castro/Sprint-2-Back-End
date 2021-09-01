@@ -10,6 +10,6 @@ namespace Senai_Rental_webAPI.Domains
         public int IdCliente { get; set; }
         public string Nome { get; set; }
         public string Sobrenome { get; set; }
-        public int CPF { get; set; }
+        public string CPF { get; set; }
     }
 }
