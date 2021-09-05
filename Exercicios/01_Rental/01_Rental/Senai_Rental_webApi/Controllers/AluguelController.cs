@@ -47,7 +47,7 @@ namespace Senai_Rental_webApi.Controllers
         [HttpPost]
         public IActionResult Post(AluguelDomain aluguel_novo)
         {
-            _AluguelRepository.Cadastrar(aluguel_novo);]
+            _AluguelRepository.Cadastrar(aluguel_novo);
 
             return StatusCode(201);
         }

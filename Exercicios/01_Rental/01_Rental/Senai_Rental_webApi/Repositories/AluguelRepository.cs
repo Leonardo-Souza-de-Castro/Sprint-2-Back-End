@@ -15,7 +15,7 @@ namespace Senai_Rental_webApi.Repositories
         {
             using (SqlConnection con = new SqlConnection(stringConexao))
             {
-                string queryUpdate = "Update Aluga Set IdCliente = @IdCliente, IdVeiculo = @IdVeiculo, Descricao_Aluguel = @Descricao, Data_Emprestimo = @DE, Data_devolucao = DD ";
+                string queryUpdate = "Update Aluga Set IdCliente = @IdCliente, IdVeiculo = @IdVeiculo, Descricao_Aluguel = @Descricao, Data_Emprestimo = @DE, Data_devolucao = @DD";
 
                 using (SqlCommand cmd = new SqlCommand(queryUpdate, con))
                 {
@@ -36,10 +36,7 @@ namespace Senai_Rental_webApi.Repositories
         {
             using (SqlConnection con = new SqlConnection(stringConexao))
             {
-                string querySelect = "Select IdAluguel, Descricao_Aluguel As [Descrição do Aluguel], Data_Emprestimo As [Data de Emprestimo], Data_devolucao As [Data de Devolução], Nome, Sobrenome, Modelo_Veiculo As Modelo" +
-                  "From Aluga as A " +
-                  "Inner Join Cliente as C on A.IdCliente = C.IdCliente " +
-                  "Inner Join Modelo As V on V.IdVeiculo = A.IdVeiculo Where IdAluguel = @id";
+                string querySelect = "Select IdAluguel, Descricao_Aluguel As [Descrição do Aluguel], Data_Emprestimo As [Data de Emprestimo], Data_devolucao As [Data de Devolução], Nome, Sobrenome, Modelo_Veiculo As Modelo From Aluga as A Inner Join Cliente as C on A.IdCliente = C.IdCliente Inner Join Modelo As V on V.IdVeiculo = A.IdVeiculo Where IdAluguel = @id";
 
                 con.Open();
 
@@ -75,7 +72,7 @@ namespace Senai_Rental_webApi.Repositories
         {
             using (SqlConnection con = new SqlConnection(stringConexao))
             {
-                string queryInsert = "Inser Into Aluga(IdVeiculo, IdCliente, Descricao_Aluguel, Data_devolucao, Data_Emprestimo) Values(@IdVeiculo, @IdCliente, @Descricao, @DD, @DE)"; //DD = Data devolução e DE = Data Emprestimo
+                string queryInsert = "Insert Into Aluga(IdVeiculo, IdCliente, Descricao_Aluguel, Data_devolucao, Data_Emprestimo) Values(@IdVeiculo, @IdCliente, '@Descricao', '@DD', '@DE')"; //DD = Data devolução e DE = Data Emprestimo
                 
                 con.Open();
 
