@@ -72,7 +72,7 @@ namespace Senai_Rental_webApi.Repositories
         {
             using (SqlConnection con = new SqlConnection(stringConexao))
             {
-                string queryInsert = "Insert Into Aluga(IdVeiculo, IdCliente, Descricao_Aluguel, Data_devolucao, Data_Emprestimo) Values(@IdVeiculo, @IdCliente, '@Descricao', '@DD', '@DE')"; //DD = Data devolução e DE = Data Emprestimo
+                string queryInsert = "Insert Into Aluga(IdVeiculo, IdCliente, Descricao_Aluguel, Data_devolucao, Data_Emprestimo) Values(@IdVeiculo, @IdCliente, @Descricao, @DD, @DE)"; //DD = Data devolução e DE = Data Emprestimo
                 
                 con.Open();
 

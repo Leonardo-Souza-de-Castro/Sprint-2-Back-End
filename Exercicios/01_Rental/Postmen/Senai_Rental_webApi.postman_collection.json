@@ -304,7 +304,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:5000/api/Aluguel/1",
+							"raw": "http://localhost:5000/api/Aluguel/4",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -313,7 +313,7 @@
 							"path": [
 								"api",
 								"Aluguel",
-								"1"
+								"4"
 							]
 						}
 					},
@@ -326,7 +326,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"IdVeiculo\" : 1,\r\n    \"IdCliente\" : 1,\r\n    \"Descricao_Aluguel\" : \"Pago em 2 vezes\",\r\n    \"Data_devolucao\" : \"04/09/2021\",\r\n    \"Data_Emprestimo\" : \"03/09/2021\"\r\n}",
+							"raw": "{\r\n    \"Veiculo\" : {\r\n        \"IdVeiculo\" : 1},\r\n    \"Cliente\" : {\r\n        \"IdCliente\" : 2\r\n    },\r\n    \"Descricao_Aluguel\" : \"Pago em 2 vezes\",\r\n    \"Data_devolucao\" : \"04/09/2021\",\r\n    \"Data_Emprestimo\" : \"03/09/2021\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -376,7 +376,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"IdCliente\" : 1,\r\n    \"IdVeiculo\" : 2,\r\n    \"Descricao_Aluguel\" : \"Pago no cartão\",\r\n    \"Data_Emprestimo\" : \"04/09/2021\",\r\n    \"Data_devolucao\" : \"05/10/2021\"\r\n}",
+							"raw": "{\r\n    \"Cliente\" : {\r\n        \"IdCliente\" : 1\r\n    },\r\n    \"Veiculo\" : {\r\n        \"IdVeiculo\" : 2\r\n    },\r\n    \"Descricao_Aluguel\" : \"Pago no cartão\",\r\n    \"Data_Emprestimo\" : \"04/09/2021\",\r\n    \"Data_devolucao\" : \"05/10/2021\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -384,7 +384,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:5000/api/Aluguel/1",
+							"raw": "http://localhost:5000/api/Aluguel/4",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -393,7 +393,7 @@
 							"path": [
 								"api",
 								"Aluguel",
-								"1"
+								"4"
 							]
 						}
 					},
