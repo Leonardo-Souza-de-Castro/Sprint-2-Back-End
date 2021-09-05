@@ -10,7 +10,7 @@ namespace Senai_Rental_webApi.Repositories
 {
     public class VeiculoRepository : IVeiculoRepository
     {
-        private string stringConexao = "Data Source=NOTE0113E2\\SQLEXPRESS; initial catalog=M_Rental; user id=sa; pwd=Senai@132";
+        private string stringConexao = "Data Source=DESKTOP-R3SNJAL\\SQLEXPRESS; initial catalog=M_Rental; user id=sa; pwd=senai@132";
         public void AtualizarIdUrl(VeiculoDomain veiculoatualizado, int IdVeiculo)
         {
             using (SqlConnection con = new SqlConnection(stringConexao))

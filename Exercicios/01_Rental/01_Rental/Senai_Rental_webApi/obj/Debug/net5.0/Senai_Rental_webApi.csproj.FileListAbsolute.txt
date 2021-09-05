@@ -28,3 +28,12 @@ C:\Users\fic\Desktop\Sprint-2-Back-End\Exercicios\01_Rental\Senai_Rental_webApi\
 C:\Users\fic\Desktop\Sprint-2-Back-End\Exercicios\01_Rental\Senai_Rental_webApi\Senai_Rental_webApi\obj\Debug\net5.0\ref\Senai_Rental_webApi.dll
 C:\Users\fic\Desktop\Sprint-2-Back-End\Exercicios\01_Rental\Senai_Rental_webApi\Senai_Rental_webApi\obj\Debug\net5.0\Senai_Rental_webApi.pdb
 C:\Users\fic\Desktop\Sprint-2-Back-End\Exercicios\01_Rental\Senai_Rental_webApi\Senai_Rental_webApi\obj\Debug\net5.0\Senai_Rental_webApi.genruntimeconfig.cache
+C:\Users\guilherme_2\Documents\trabalhos do leo\Senai\Sprint-2-Back-End\Exercicios\01_Rental\01_Rental\Senai_Rental_webApi\obj\Debug\net5.0\Senai_Rental_webApi.csproj.AssemblyReference.cache
+C:\Users\guilherme_2\Documents\trabalhos do leo\Senai\Sprint-2-Back-End\Exercicios\01_Rental\01_Rental\Senai_Rental_webApi\obj\Debug\net5.0\Senai_Rental_webApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guilherme_2\Documents\trabalhos do leo\Senai\Sprint-2-Back-End\Exercicios\01_Rental\01_Rental\Senai_Rental_webApi\obj\Debug\net5.0\Senai_Rental_webApi.AssemblyInfoInputs.cache
+C:\Users\guilherme_2\Documents\trabalhos do leo\Senai\Sprint-2-Back-End\Exercicios\01_Rental\01_Rental\Senai_Rental_webApi\obj\Debug\net5.0\Senai_Rental_webApi.AssemblyInfo.cs
+C:\Users\guilherme_2\Documents\trabalhos do leo\Senai\Sprint-2-Back-End\Exercicios\01_Rental\01_Rental\Senai_Rental_webApi\obj\Debug\net5.0\Senai_Rental_webApi.csproj.CoreCompileInputs.cache
+C:\Users\guilherme_2\Documents\trabalhos do leo\Senai\Sprint-2-Back-End\Exercicios\01_Rental\01_Rental\Senai_Rental_webApi\obj\Debug\net5.0\Senai_Rental_webApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\guilherme_2\Documents\trabalhos do leo\Senai\Sprint-2-Back-End\Exercicios\01_Rental\01_Rental\Senai_Rental_webApi\obj\Debug\net5.0\Senai_Rental_webApi.dll
+C:\Users\guilherme_2\Documents\trabalhos do leo\Senai\Sprint-2-Back-End\Exercicios\01_Rental\01_Rental\Senai_Rental_webApi\obj\Debug\net5.0\ref\Senai_Rental_webApi.dll
+C:\Users\guilherme_2\Documents\trabalhos do leo\Senai\Sprint-2-Back-End\Exercicios\01_Rental\01_Rental\Senai_Rental_webApi\obj\Debug\net5.0\Senai_Rental_webApi.pdb

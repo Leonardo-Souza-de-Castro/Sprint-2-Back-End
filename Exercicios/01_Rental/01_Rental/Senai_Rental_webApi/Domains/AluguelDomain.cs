@@ -13,5 +13,6 @@ namespace Senai_Rental_webApi.Domains
         public string Data_devolucao { get; set; }
         public ClienteDomain Cliente { get; set; }
         public VeiculoDomain Veiculo { get; set; }
+        public ModeloDomain Modelo { get; set; }
     }
 }

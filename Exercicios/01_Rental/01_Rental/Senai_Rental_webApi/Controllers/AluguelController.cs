@@ -14,54 +14,54 @@ namespace Senai_Rental_webApi.Controllers
 
     [Route("api/[controller]")]
     [ApiController]
-    public class VeiculoController : ControllerBase
+    public class AluguelController : ControllerBase
     {
-        private IVeiculoRepository _VeiculoRepository { get; set; }
+        private IAluguelRepository _AluguelRepository { get; set; }
 
-        public VeiculoController()
+        public AluguelController()
         {
-            _VeiculoRepository = new VeiculoRepository();
+            _AluguelRepository = new AluguelRepository();
         }
 
         [HttpGet]
         public IActionResult Get()
         {
-            List<VeiculoDomain> listaVeiculo = _VeiculoRepository.ListarTodos();
+            List<AluguelDomain> lista_Alugueis = _AluguelRepository.Listar_Todos();
 
-            return Ok(listaVeiculo);
+            return Ok(lista_Alugueis);
         }
 
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
-            VeiculoDomain veiculobuscado = _VeiculoRepository.BuscarporId(id);
+            AluguelDomain aluguelBuscado = _AluguelRepository.BuscarporId(id);
 
-            if (veiculobuscado == null)
+            if (aluguelBuscado == null)
             {
-                return NotFound("Nenhum Veiculo encontrado");
+                return NotFound("nenhum Aluguel encontrado");
             }
 
-            return Ok(veiculobuscado);
+            return Ok(aluguelBuscado);
         }
 
         [HttpPost]
-        public IActionResult Post(VeiculoDomain veiculo_novo)
+        public IActionResult Post(AluguelDomain aluguel_novo)
         {
-            _VeiculoRepository.Cadastrar(veiculo_novo);
+            _AluguelRepository.Cadastrar(aluguel_novo);]
 
             return StatusCode(201);
         }
 
-        [HttpPut ("{id}")]
-        public IActionResult PutURL(VeiculoDomain veiculo, int id)
+        [HttpPut("{id}")]
+        public IActionResult PutURL(AluguelDomain aluguel, int id)
         {
-            VeiculoDomain veiculo_buscado = _VeiculoRepository.BuscarporId(id);
+            AluguelDomain aluguel_Buscado = _AluguelRepository.BuscarporId(id);
 
-            if (veiculo_buscado != null)
+            if (aluguel_Buscado != null)
             {
                 try
                 {
-                    _VeiculoRepository.AtualizarIdUrl(veiculo, id);
+                    _AluguelRepository.AtualizarIdUrl(aluguel, id);
 
                     return NoContent();
                 }
@@ -75,19 +75,17 @@ namespace Senai_Rental_webApi.Controllers
             return NotFound
                     (new
                     {
-                        mensagem = "Veiculo não encontrado!",
+                        mensagem = "Aluguel não encontrado!",
                         erro = true
                     });
         }
 
-
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
-            _VeiculoRepository.Deletar(id);
+            _AluguelRepository.Deletar(id);
 
             return StatusCode(204);
         }
-
     }
 }

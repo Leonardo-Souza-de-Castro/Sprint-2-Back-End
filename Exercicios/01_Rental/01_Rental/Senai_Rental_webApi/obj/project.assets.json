@@ -454,19 +454,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fic\\.nuget\\packages\\": {}
+    "C:\\Users\\guilherme_2\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fic\\Desktop\\Sprint-2-Back-End\\Exercicios\\01_Rental\\Senai_Rental_webApi\\Senai_Rental_webApi\\Senai_Rental_webApi.csproj",
+      "projectUniqueName": "C:\\Users\\guilherme_2\\Documents\\trabalhos do leo\\Senai\\Sprint-2-Back-End\\Exercicios\\01_Rental\\01_Rental\\Senai_Rental_webApi\\Senai_Rental_webApi.csproj",
       "projectName": "Senai_Rental_webApi",
-      "projectPath": "C:\\Users\\fic\\Desktop\\Sprint-2-Back-End\\Exercicios\\01_Rental\\Senai_Rental_webApi\\Senai_Rental_webApi\\Senai_Rental_webApi.csproj",
-      "packagesPath": "C:\\Users\\fic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fic\\Desktop\\Sprint-2-Back-End\\Exercicios\\01_Rental\\Senai_Rental_webApi\\Senai_Rental_webApi\\obj\\",
+      "projectPath": "C:\\Users\\guilherme_2\\Documents\\trabalhos do leo\\Senai\\Sprint-2-Back-End\\Exercicios\\01_Rental\\01_Rental\\Senai_Rental_webApi\\Senai_Rental_webApi.csproj",
+      "packagesPath": "C:\\Users\\guilherme_2\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\guilherme_2\\Documents\\trabalhos do leo\\Senai\\Sprint-2-Back-End\\Exercicios\\01_Rental\\01_Rental\\Senai_Rental_webApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\fic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\guilherme_2\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
